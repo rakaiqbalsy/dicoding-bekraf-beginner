@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewRowSMK"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cvHeigh">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logosmk"
+                android:layout_width="@dimen/widthCV"
+                android:layout_height="@dimen/heighCV" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/heighCV"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/namaSekolahsmk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="@string/sman_1_purwakarta"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/alamatsmk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="@string/alamat"
+                    android:textColor="@color/colorDescription" />
+
+                <Button
+                    android:id="@+id/btnDetailsmk"
+                    android:layout_width="@dimen/widthbutton"
+                    android:layout_height="@dimen/heigtbutton"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@color/colorAccent"
+                    android:text="@string/details"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/colorAccent"/>
+</LinearLayout>

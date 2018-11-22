@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SMA/SMK Negeri Di Purwakarta</string>
+    <string name="lihat_daftar_smk_negeri_di_purwakarta">Lihat Daftar SMK Negeri di Purwakarta</string>
+    <string name="smk_negeri">SMK NEGERI</string>
+    <string name="lihat_daftar_sma_negeri_di_purwakarta">Lihat Daftar SMA Negeri Di Purwakarta</string>
+    <string name="sma_negeri">SMA Negeri</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="imgsmk">imgsmk</string>
+    <string name="imgsma">imgSma</string>
+    <string name="sman_1_purwakarta">SMAN 1 PURWAKARTA</string>
+    <string name="alamat">alamat</string>
+    <string name="lihat_lokasi">Lihat lokasi</string>
+    <string name="details">Details</string>
+    <string name="identitas_sekolah">IDENTITAS SEKOLAH</string>
+    <string name="npsn">NPSN :</string>
+    <string name="akreditasi">Akreditasi</string>
+    <string name="tahun_berdiri">Tahun Berdiri</string>
+</resources>
